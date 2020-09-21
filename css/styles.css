@@ -43,7 +43,7 @@ img {
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
-.header-container {
+.header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,7 +112,18 @@ img {
 
 /* ==========HERO================= */
 .hero {
-  background: #2f303a;
+  max-width: 1920px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/studio/hero-bg.jpg);
+  background-color: #c4c4c4;
+  background-size: cover;
+  background-position: center;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
