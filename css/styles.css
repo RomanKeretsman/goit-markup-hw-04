@@ -307,7 +307,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 .social-link:hover {
   background-color: var(--accent-color);
@@ -321,6 +321,39 @@ img {
   height: 20px;
 }
 /* ==========END TEAM================= */
+/* ==========CUSTOMERS================= */
+.customers {
+  margin-top: 47px;
+  margin-bottom: 47px;
+}
+.customers .container {
+  padding-top: 47px;
+  padding-bottom: 47px;
+}
+.customers-list {
+  display: flex;
+  justify-content: space-between;
+}
+.customers-list-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+.customers-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.customers-list-link:hover,
+.customers-list-link:focus {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+/* ==========END CUSTOMERS================= */
 
 /* ==========FOOTER================= */
 .footer {
