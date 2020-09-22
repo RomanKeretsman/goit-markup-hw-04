@@ -182,8 +182,8 @@ img {
   border: none;
   border-radius: 4px;
 }
-.hero-button:hover{
-  background: #188CE8;
+.hero-button:hover {
+  background: #188ce8;
 }
 /* ==========END HERO================= */
 
@@ -203,13 +203,13 @@ img {
 }
 .our-features-icon {
   display: flex;
- justify-content: center;
+  justify-content: center;
   align-items: center;
-
   height: 120px;
-  background-color: #F5F4FA;
-  border-radius: 4px;
   margin-bottom: 30px;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 .our-features-icon .icon {
   width: 70px;
@@ -279,8 +279,6 @@ img {
   line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
-  /* margin-left: 10px;
-    margin-right: 10px; */
   margin-bottom: 10px;
 
   color: var(--title-color);
@@ -291,8 +289,36 @@ img {
   line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 
   color: var(--text-color);
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+  height: 44px;
+  margin: 0 auto;
+}
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #AFB1B8;
+}
+.social-link:hover {
+  background-color: var(--accent-color);
+  fill: #ffffff;
+}
+.social-button:not(:nth-child(4)) {
+  margin-right: 10px;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
 }
 /* ==========END TEAM================= */
 
