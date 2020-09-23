@@ -352,7 +352,6 @@ img {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
-
 /* ==========END CUSTOMERS================= */
 
 /* ==========FOOTER================= */
@@ -410,29 +409,29 @@ img {
   padding-bottom: 40px;
 }
 .social-title {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.143;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 .footer-social-list {
-display: flex;
+  display: flex;
 }
 .footer-social-link {
   display: inline-flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
-.footer-social-item:not(:last-child){
+.footer-social-item:not(:last-child) {
   margin-right: 10px;
 }
 .footer-social-icon {
@@ -441,7 +440,7 @@ display: flex;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background: var(--accent-color)
+  background: var(--accent-color);
 }
 /* ==========END FOOTER================= */
 
@@ -454,9 +453,6 @@ display: flex;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-.filter-list-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .filter-list-item:not(:last-child) {
   margin-right: 8px;
@@ -478,9 +474,12 @@ display: flex;
   color: var(--title-color);
 }
 .filter-list-button:hover,
-.filter-list-button:focus {
+.filter-list-button:active {
   color: #ffffff;
   background: #2196f3;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /* ==========END FILTER================= */
 
@@ -491,7 +490,8 @@ display: flex;
   margin: -15px;
 }
 .portfolio-list-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-list-item {
   box-sizing: border-box;
