@@ -323,12 +323,8 @@ img {
 /* ==========END TEAM================= */
 /* ==========CUSTOMERS================= */
 .customers {
-  margin-top: 47px;
-  margin-bottom: 47px;
-}
-.customers .container {
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .customers-list {
   display: flex;
